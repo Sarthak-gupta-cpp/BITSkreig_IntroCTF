@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    --color-bg:#1d1d1d;
+    --primary:#1a345d;
+    --secondary: #757974;
+    --done:#5c98f7;
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con2{
+    border: 4px solid var(--primary);
+    padding: 5px 15px 5px 15px;
+}
+
+.name {
+    color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    font-family: JetBrains Mono, monospace;
+    font-weight: 900;
+    font-size: min(10vw,13.5vh);
+}
+
+.done {
+    color: var(--done);
+}
